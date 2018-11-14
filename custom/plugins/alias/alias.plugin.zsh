@@ -30,3 +30,7 @@ alias tmka="killall tmux"
 # Python
 # alias python="python3"
 # alias py3="python3"
+
+# ZSH Aliases
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim $ZSH"
