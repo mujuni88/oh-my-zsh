@@ -1,5 +1,5 @@
 # Project Paths
-alias Code="cd ~/Code/"
+alias Code="cd ~/Documents/Code/"
 alias ss="Code && cd schoolstatus/"
 alias pr="Code && cd projects"
 alias tuts="Code && cd tutorials"
