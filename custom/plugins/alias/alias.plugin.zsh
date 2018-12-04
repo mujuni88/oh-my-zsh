@@ -16,8 +16,8 @@ alias rm="rm -i"
 alias cp="cp -i"
 
 # Vim
-# alias vi="nvim"
-# alias vim="nvim"
+alias vi="nvim"
+alias vim="nvim"
 
 # Tmux
 alias tmn="tmux new-session -s"
