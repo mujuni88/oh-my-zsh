@@ -34,3 +34,8 @@ alias tmka="killall tmux"
 # ZSH Aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim $ZSH"
+
+# NVIM config
+alias plugins="vim ~/.config/nvim/plugins.vim"
+alias nerdtree="vim ~/.config/nvim/settings/nerdtree.vim"
+alias mappings="vim ~/.config/nvim/settings/mappings.vim"
