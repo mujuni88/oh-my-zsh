@@ -1,13 +1,11 @@
 # Project Paths
-alias Code="cd ~/Documents/Code/"
-alias ss="Code && cd schoolstatus/"
+alias Code="cd ~/Code/"
 alias pr="Code && cd projects"
 alias tuts="Code && cd tutorials"
 alias aliases="$ZSH/custom/plugins/alias/"
 alias dtf="$HOME/.dotfiles/"
 
 # Custom projects
-alias ssui="ss && cd ss-ui/"
 
 # File management
 alias ls="ls -al"
