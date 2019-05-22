@@ -34,6 +34,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim $ZSH"
 
 # NVIM config
-alias plugins="vim ~/.config/nvim/plugins.vim"
-alias nerdtree="vim ~/.config/nvim/settings/nerdtree.vim"
-alias mappings="vim ~/.config/nvim/settings/mappings.vim"
+alias nvimplugins="vim ~/.config/nvim/plugins.vim"
+alias nvimnerd="vim ~/.config/nvim/settings/nerdtree.vim"
+alias nvimmap="vim ~/.config/nvim/settings/mappings.vim"
+alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
