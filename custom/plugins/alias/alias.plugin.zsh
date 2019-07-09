@@ -4,6 +4,7 @@ alias pr="Code && cd projects"
 alias tuts="Code && cd tutorials"
 alias aliases="$ZSH/custom/plugins/alias/"
 alias dtf="$HOME/.dotfiles/"
+alias Netflix="Code && cd Netflix"
 
 # Custom projects
 
