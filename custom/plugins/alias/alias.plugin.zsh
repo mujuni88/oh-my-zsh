@@ -40,5 +40,5 @@ alias nvimnerd="vim ~/.config/nvim/settings/nerdtree.vim"
 alias nvimmap="vim ~/.config/nvim/settings/mappings.vim"
 alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 
-alias npm="newt exec npm"
-alias node="newt exec node"
+alias nnpm="newt exec npm"
+alias nnode="newt exec node"
