@@ -42,3 +42,6 @@ alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 
 alias nnpm="newt exec npm"
 alias nnode="newt exec node"
+
+alias yw="yarn workspace"
+alias yr="yw @studio-ui-media/iris"
