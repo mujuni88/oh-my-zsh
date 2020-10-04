@@ -46,3 +46,8 @@ alias nnode="newt exec node"
 alias yw="yarn workspace"
 alias yr="yw @studio-ui-media/iris"
 alias yiris="j studio-ui-media && yarn && yarn bootstrap && yarn iris:start"
+
+# Open repository
+alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
+alias npca="open https://stash.corp.netflix.com/projects/CCEUI/repos/npca-ui/pull-requests"
+alias sdc="open https://stash.corp.netflix.com/projects/HAWK/repos/studio-ui-common/pull-requests"
