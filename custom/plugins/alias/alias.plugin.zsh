@@ -43,8 +43,6 @@ alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 alias nnpm="newt exec npm"
 alias nnode="newt exec node"
 
-alias yw="yarn workspace"
-alias yr="yw @studio-ui-media/iris"
 alias yiris="j studio-ui-media && yarn && yarn bootstrap && yarn iris:start"
 
 # Open repository
