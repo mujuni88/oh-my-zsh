@@ -42,8 +42,9 @@ alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 
 alias nnpm="newt exec npm"
 alias nnode="newt exec node"
+alias newty="newt exec yarn"
 
-alias yiris="j studio-ui-media && yarn && yarn bootstrap && yarn iris:start"
+alias iriss="newty && newty bootstrap && newty iris:start"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
