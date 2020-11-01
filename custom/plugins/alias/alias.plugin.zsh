@@ -45,6 +45,7 @@ alias nnode="newt exec node"
 alias newty="newt exec yarn"
 
 alias iriss="newty && newty bootstrap && newty iris:start"
+alias ywir="yarn workspace @studio-ui-media/irisui"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
