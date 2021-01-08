@@ -42,10 +42,13 @@ alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 
 alias nnpm="newt exec npm"
 alias nnode="newt exec node"
-alias newty="newt exec yarn"
+alias nyarn="newt exec yarn"
 
-alias iriss="newty && newty bootstrap && newty iris:start"
-alias ywir="yarn workspace @studio-ui-media/irisui"
+alias iriss="nyarn && nyarn bootstrap && nyarn iris:start"
+alias ywir="nyarn workspace @studio-ui-media/irisui"
+alias iristj="nyarn workspace @studio-ui-media/irisui test:jest"
+alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
+alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
