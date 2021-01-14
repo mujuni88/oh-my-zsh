@@ -47,7 +47,7 @@ alias nyarn="newt exec yarn"
 alias iriss="nyarn && nyarn bootstrap && nyarn iris:start"
 alias ywir="nyarn workspace @studio-ui-media/irisui"
 alias iristj="nyarn workspace @studio-ui-media/irisui test:jest"
-alias iristj="nyarn workspace @studio-ui-media/common test:jest"
+alias scommontj="nyarn workspace @studio-ui-media/common test:jest"
 alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
 alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
 
