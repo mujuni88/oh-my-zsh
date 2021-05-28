@@ -50,9 +50,10 @@ alias iristj="nyarn workspace @studio-ui-media/irisui test:jest"
 alias scommontj="nyarn workspace @studio-ui-media/common test:jest"
 alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
 alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
+alias apss="nyarn && nyarn bootstrap && nyarn artworkportal:start"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
 alias npca="open https://stash.corp.netflix.com/projects/CCEUI/repos/npca-ui/pull-requests"
 alias sdc="open https://stash.corp.netflix.com/projects/HAWK/repos/studio-ui-common/pull-requests"
-alias mtr="metatron refresh -r"
+alias mtr="metatron refresh"
