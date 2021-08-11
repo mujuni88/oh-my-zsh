@@ -5,6 +5,9 @@ alias tuts="Code && cd tutorials"
 alias aliases="$ZSH/custom/plugins/alias/"
 alias dtf="$HOME/.dotfiles/"
 alias Netflix="Code && cd Netflix"
+alias acroot="Netflix && cd animation-connect"
+alias acclient="acroot && cd client"
+alias acserver="acroot && cd server"
 
 # Custom projects
 
@@ -47,6 +50,7 @@ alias scommontj="nyarn workspace @studio-ui-media/common test:jest"
 alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
 alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
 alias apss="nyarn && nyarn bootstrap && nyarn artworkportal:start"
+alias acstart="acclient && nyarn && acserver && nyarn && acroot && newt develop"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
