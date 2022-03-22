@@ -50,7 +50,7 @@ alias scommontj="nyarn workspace @studio-ui-media/common test:jest"
 alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
 alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
 alias apss="nyarn && nyarn bootstrap && nyarn artworkportal:start"
-alias acstart="acclient && nyarn && acserver && nyarn && acroot && newt develop"
+alias acstart="killport 8080 && acclient && nyarn && acserver && nyarn && acroot && newt develop"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
