@@ -58,3 +58,5 @@ alias npca="open https://stash.corp.netflix.com/projects/CCEUI/repos/npca-ui/pul
 alias sdc="open https://stash.corp.netflix.com/projects/HAWK/repos/studio-ui-common/pull-requests"
 alias mtr="metatron refresh"
 alias botserver="Code && ssh -i "gdaxKey.pem" ec2-user@ec2-100-26-46-177.compute-1.amazonaws.com"
+
+alias killvpn="sudo kill -SEGV $(ps auwx | grep dsAccessService | grep Ss | awk '{print $2}')"
