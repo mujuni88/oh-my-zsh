@@ -51,6 +51,7 @@ alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
 alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
 alias apss="nyarn && nyarn bootstrap && nyarn artworkportal:start"
 alias acstart="killport 8180 && killport 8080 && killport 3000 && acclient && nyarn && acserver && nyarn && acroot && newt develop"
+alias acons="nyarn && nyarn bootstrap && newt develop --app animation-connect"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
