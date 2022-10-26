@@ -53,6 +53,7 @@ alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
 alias apss="nyarn && nyarn bootstrap && nyarn artworkportal:start"
 alias killuiport="killport 8180 && killport 8080 && killport 3000 "
 alias acstart="killuiport && acclient && nyarn && acserver && nyarn && acroot && newt develop"
+alias acw="nyarn workspace animation-connect"
 alias acons="killuiport && acuiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
 
 # Open repository
