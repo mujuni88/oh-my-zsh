@@ -55,6 +55,8 @@ alias killuiport="killport 8180 && killport 8080 && killport 3000 "
 alias acstart="killuiport && acclient && nyarn && acserver && nyarn && acroot && newt develop"
 alias acw="nyarn workspace animation-connect"
 alias acons="killuiport && acuiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
+alias actypes="acw get-types:watch"
+
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
