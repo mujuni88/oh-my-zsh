@@ -5,10 +5,7 @@ alias tuts="Code && cd tutorials"
 alias aliases="$ZSH/custom/plugins/alias/"
 alias dtf="$HOME/.dotfiles/"
 alias Netflix="Code && cd Netflix"
-alias acroot="Netflix && cd animation-connect"
-alias acuiroot="Netflix && cd animation-ui"
-alias acclient="acroot && cd client"
-alias acserver="acroot && cd server"
+alias auiroot="Netflix && cd animation-ui"
 
 # Custom projects
 
@@ -52,10 +49,12 @@ alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
 alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
 alias apss="nyarn && nyarn bootstrap && nyarn artworkportal:start"
 alias killuiport="killport 8180 && killport 8080 && killport 3000 "
-alias acstart="killuiport && acclient && nyarn && acserver && nyarn && acroot && newt develop"
 alias acw="nyarn workspace animation-connect"
-alias acons="killuiport && acuiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
+alias ebayw="nyarn workspace editbay"
+alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
+alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app editbay"
 alias actypes="acw get-types:watch"
+alias ebaytypes="ebayw generate-types"
 
 
 # Open repository
