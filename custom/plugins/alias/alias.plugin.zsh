@@ -53,6 +53,7 @@ alias acw="nyarn workspace animation-connect"
 alias ebayw="nyarn workspace editbay"
 alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
 alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app editbay"
+alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app asset-spotting"
 alias actypes="acw get-types:watch"
 alias ebaytypes="ebayw generate-types"
 
