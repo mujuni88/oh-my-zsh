@@ -44,7 +44,7 @@ alias nyarn="newt exec yarn"
 # Apps
 alias killuiport="killport 8180 && killport 8080 && killport 3000 "
 
-alias aconw="nyarn workspace shared-components"
+alias sharedw="nyarn workspace shared-components"
 
 alias aconw="nyarn workspace animation-connect"
 alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
