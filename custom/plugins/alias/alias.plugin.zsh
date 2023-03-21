@@ -41,21 +41,23 @@ alias nnpm="newt exec npm"
 alias nnode="newt exec node"
 alias nyarn="newt exec yarn"
 
-alias iriss="nyarn && nyarn bootstrap && nyarn iris:start"
-alias ywir="nyarn workspace @studio-ui-media/irisui"
-alias iristj="nyarn workspace @studio-ui-media/irisui test:jest"
-alias scommontj="nyarn workspace @studio-ui-media/common test:jest"
-alias iriste="nyarn workspace @studio-ui-media/irisui test:e2e"
-alias iristew="nyarn workspace @studio-ui-media/irisui test:e2e:watch"
-alias apss="nyarn && nyarn bootstrap && nyarn artworkportal:start"
+# Apps
 alias killuiport="killport 8180 && killport 8080 && killport 3000 "
-alias acw="nyarn workspace animation-connect"
-alias ebayw="nyarn workspace editbay"
+
+alias aconw="nyarn workspace animation-connect"
 alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
-alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app editbay"
-alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app asset-spotting"
 alias actypes="acw get-types:watch"
+
+alias ebayw="nyarn workspace editbay"
+alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app editbay"
 alias ebaytypes="ebayw generate-types"
+
+alias assetw="nyarn workspace asset-spotting"
+alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app asset-spotting"
+
+alias pashw="nyarn workspace pashboard-v2"
+alias pashs="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app pashboard-v2"
+
 
 
 # Open repository
