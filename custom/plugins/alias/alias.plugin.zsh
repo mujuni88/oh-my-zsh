@@ -38,6 +38,7 @@ alias nvimmap="vim ~/.config/nvim/settings/mappings.vim"
 alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 
 alias nnpm="newt exec npm"
+alias nnpx="newt exec npx"
 alias nnode="newt exec node"
 alias nyarn="newt exec yarn"
 
