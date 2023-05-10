@@ -64,7 +64,7 @@ alias pashw="nyarn workspace @animation-ui/pashboard-v2"
 alias pashs="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app pashboard-v2"
 
 alias sbookw="nyarn workspace @animation-ui/storybook"
-alias sbooks="killport 6006 && auiroot && nyarn && nyarn bootstrap && newt exec yarn storybook"
+alias sbooks="killport 6006 && auiroot && nyarn && nyarn bootstrap && newt develop --app storybook"
 
 
 # Open repository
