@@ -56,6 +56,8 @@ alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop -
 alias ebayt="ebayw generate-types"
 alias ebaytw="ebayw generate-types:watch"
 alias ebaytwi="ebayw generate-types:integration"
+alias ebaytest="ebayw test"
+alias ebaytestonce="ebayw test:once"
 
 alias assetw="nyarn workspace @animation-ui/asset-spotting"
 alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app asset-spotting"
