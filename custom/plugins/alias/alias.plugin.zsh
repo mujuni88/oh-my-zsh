@@ -53,6 +53,7 @@ alias actypes="aconw get-types:watch"
 
 alias ebayw="nyarn workspace @animation-ui/editbay"
 alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app editbay"
+alias ebayslocal="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app editbay"
 alias ebayt="ebayw generate-types"
 alias ebaytw="ebayw generate-types:watch"
 alias ebaytwi="ebayw generate-types:integration"
