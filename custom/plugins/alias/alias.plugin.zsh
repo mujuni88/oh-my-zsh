@@ -48,7 +48,7 @@ alias killuiport="killport 8180 && killport 8080 && killport 3000 "
 alias sharedw="nyarn workspace @animation-ui/shared-components"
 
 alias aconw="nyarn workspace animation-connect"
-alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
+alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app animation-connect"
 alias actypes="aconw get-types:watch"
 
 alias ebayw="nyarn workspace @animation-ui/editbay"
@@ -61,13 +61,13 @@ alias ebaytest="ebayw test"
 alias ebaytestonce="ebayw test:once"
 
 alias assetw="nyarn workspace @animation-ui/asset-spotting"
-alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app asset-spotting"
+alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app asset-spotting"
 
 alias pashw="nyarn workspace @animation-ui/pashboard-v2"
-alias pashs="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app pashboard-v2"
+alias pashs="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app pashboard-v2"
 
 alias sbookw="nyarn workspace @animation-ui/storybook"
-alias sbooks="killport 6006 && auiroot && nyarn && nyarn bootstrap && newt develop --app storybook"
+alias sbooks="killport 6006 && auiroot && nyarn && nyarn bootstrap && newt develop-local --app storybook"
 
 
 # Open repository
