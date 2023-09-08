@@ -63,7 +63,7 @@ alias ebaytestonce="ebayw test:once"
 alias assetw="nyarn workspace @animation-ui/asset-spotting"
 alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app asset-spotting"
 
-alias pashw="nyarn workspace @animation-ui/pashboard-v2"
+alias pashw="nyarn workspace pashboard-v2"
 alias pasht="pashw generate-types"
 alias pashs="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app pashboard-v2"
 
