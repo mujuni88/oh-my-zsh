@@ -49,7 +49,7 @@ alias sharedw="nyarn workspace @animation-ui/shared-components"
 
 alias aconw="nyarn workspace animation-connect"
 alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app animation-connect"
-alias actypes="aconw get-types:watch"
+alias acont="aconw get-types:watch"
 
 alias ebayw="nyarn workspace @animation-ui/editbay"
 alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app editbay"
@@ -64,6 +64,7 @@ alias assetw="nyarn workspace @animation-ui/asset-spotting"
 alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app asset-spotting"
 
 alias pashw="nyarn workspace @animation-ui/pashboard-v2"
+alias pasht="pashw generate-types"
 alias pashs="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app pashboard-v2"
 
 alias sbookw="nyarn workspace @animation-ui/storybook"
