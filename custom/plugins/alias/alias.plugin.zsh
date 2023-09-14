@@ -60,6 +60,10 @@ alias ebaytwi="ebayw generate-types:integration"
 alias ebaytest="ebayw test"
 alias ebaytestonce="ebayw test:once"
 
+alias spkw="nyarn workspace @animation-ui/speakeasy"
+alias spks="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app speakeasy"
+alias spklocal="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app speakeasy"
+
 alias assetw="nyarn workspace @animation-ui/asset-spotting"
 alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app asset-spotting"
 
