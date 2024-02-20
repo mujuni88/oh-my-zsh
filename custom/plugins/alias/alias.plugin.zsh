@@ -87,3 +87,5 @@ alias botserver="Code && ssh -i "gdaxKey.pem" ec2-user@ec2-100-26-46-177.compute
 
 alias killvpn="sudo kill -SEGV $(ps auwx | grep dsAccessService | grep Ss | awk '{print $2}')"
 alias sourcealias="source /Users/jbuza/.dotfiles/oh-my-zsh/custom/plugins/alias/alias.plugin.zsh"
+alias pgstart="brew services start postgresql@16"
+alias pgstop="brew services stop postgresql@16"
