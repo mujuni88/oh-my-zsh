@@ -89,3 +89,4 @@ alias killvpn="sudo kill -SEGV $(ps auwx | grep dsAccessService | grep Ss | awk 
 alias sourcealias="source /Users/jbuza/.dotfiles/oh-my-zsh/custom/plugins/alias/alias.plugin.zsh"
 alias pgstart="brew services start postgresql@16"
 alias pgstop="brew services stop postgresql@16"
+alias pg='psql postgres'
