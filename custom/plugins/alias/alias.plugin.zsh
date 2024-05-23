@@ -48,7 +48,7 @@ alias killuiport="killport 8180 && killport 8080 && killport 3000 "
 alias sharedw="nyarn workspace @animation-ui/shared-components"
 
 alias aconw="nyarn workspace animation-connect"
-alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app animation-connect"
+alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
 alias acont="aconw get-types:watch"
 
 alias ebayw="nyarn workspace @animation-ui/editbay"
