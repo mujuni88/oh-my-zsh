@@ -5,7 +5,7 @@ alias tuts="Code && cd tutorials"
 alias aliases="$ZSH/custom/plugins/alias/"
 alias dtf="$HOME/.dotfiles/"
 alias Netflix="Code && cd Netflix"
-alias auiroot="Netflix && cd animation-ui"
+alias auiroot="Netflix && cd ai-animation-ui"
 
 # Custom projects
 
