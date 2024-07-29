@@ -47,13 +47,13 @@ alias killuiport="killport 8180 && killport 8080 && killport 3000 "
 
 alias sharedw="nyarn workspace @animation-ui/shared-components"
 
-alias aconw="nyarn workspace animation-connect"
-alias acons="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app animation-connect"
+alias aconw="nyarn workspace @animation-ui/animation-connect"
+alias acons="killuiport && auiroot && nyarn && newt develop --app animation-connect"
 alias acont="aconw get-types:watch"
 
 alias ebayw="nyarn workspace @animation-ui/editbay"
-alias ebays="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app editbay"
-alias ebayslocal="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app editbay"
+alias ebays="killuiport && auiroot && nyarn && newt develop --app editbay"
+alias ebayslocal="killuiport && auiroot && nyarn && newt develop --app editbay"
 alias ebayt="ebayw generate-types"
 alias ebaytw="ebayw generate-types:watch"
 alias ebaytwi="ebayw generate-types:integration"
@@ -61,20 +61,20 @@ alias ebaytest="ebayw test"
 alias ebaytestonce="ebayw test:once"
 
 alias speakw="nyarn workspace @animation-ui/speakeasy"
-alias speaks="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop --app speakeasy"
-alias speaklocal="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app speakeasy"
+alias speaks="killuiport && auiroot && nyarn && newt develop --app speakeasy"
+alias speaklocal="killuiport && auiroot && nyarn && newt develop --app speakeasy"
 alias speakt="speakw generate-types"
 alias speaktw="speakw generate-types:watch"
 
 alias assetw="nyarn workspace @animation-ui/asset-spotting"
-alias assets="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app asset-spotting"
+alias assets="killuiport && auiroot && nyarn && newt develop --app asset-spotting"
 
-alias pashw="nyarn workspace pashboard-v2"
+alias pashw="nyarn workspace @animation-ui/pashboard-v2"
 alias pasht="pashw generate-types"
-alias pashs="killuiport && auiroot && nyarn && nyarn bootstrap && newt develop-local --app pashboard-v2"
+alias pashs="killuiport && auiroot && nyarn && newt develop --app pashboard-v2"
 
 alias sbookw="nyarn workspace @animation-ui/storybook"
-alias sbooks="killport 6006 && auiroot && nyarn && nyarn bootstrap && newt develop-local --app storybook"
+alias sbooks="killport 6006 && auiroot && nyarn && newt develop --app storybook"
 
 
 # Open repository
