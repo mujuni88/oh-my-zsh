@@ -90,3 +90,5 @@ alias sourcealias="source /Users/jbuza/.dotfiles/oh-my-zsh/custom/plugins/alias/
 alias pgstart="brew services start postgresql@16"
 alias pgstop="brew services stop postgresql@16"
 alias pg='psql postgres'
+
+alias jdb="vim /Users/jbuza/Library/autojump/autojump.txt"
