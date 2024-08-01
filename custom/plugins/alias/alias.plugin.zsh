@@ -91,4 +91,4 @@ alias pgstart="brew services start postgresql@16"
 alias pgstop="brew services stop postgresql@16"
 alias pg='psql postgres'
 
-alias jdb="vim /Users/jbuza/Library/autojump/autojump.txt"
+alias jdbs="vim /Users/jbuza/Library/autojump/autojump.txt"
