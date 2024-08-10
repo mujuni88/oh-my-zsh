@@ -37,45 +37,45 @@ alias nvimnerd="vim ~/.config/nvim/settings/nerdtree.vim"
 alias nvimmap="vim ~/.config/nvim/settings/mappings.vim"
 alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 
+# Updated npm aliases
 alias nnpm="newt exec npm"
 alias nnpx="newt exec npx"
 alias nnode="newt exec node"
-alias nyarn="newt exec yarn"
 
 # Apps
-alias killuiport="killport 8180 && killport 8080 && killport 3000 "
+alias killuiport="killport 8180 && killport 8080 && killport 3000"
 
-alias sharedw="nyarn workspace @animation-ui/shared-components"
+# Workspace aliases
+alias sharedw="nnpm --workspace=@animation-ui/shared-components"
 
-alias aconw="nyarn workspace @animation-ui/animation-connect"
-alias acons="killuiport && auiroot && nyarn && newt develop --app animation-connect"
-alias acont="aconw get-types:watch"
+alias aconw="nnpm --workspace=@animation-ui/animation-connect"
+alias acons="killuiport && auiroot && nnpm install && newt develop --app animation-connect"
+alias acont="aconw run get-types:watch"
 
-alias ebayw="nyarn workspace @animation-ui/editbay"
-alias ebays="killuiport && auiroot && nyarn && newt develop --app editbay"
-alias ebayslocal="killuiport && auiroot && nyarn && newt develop --app editbay"
-alias ebayt="ebayw generate-types"
-alias ebaytw="ebayw generate-types:watch"
-alias ebaytwi="ebayw generate-types:integration"
-alias ebaytest="ebayw test"
-alias ebaytestonce="ebayw test:once"
+alias ebayw="nnpm --workspace=@animation-ui/editbay"
+alias ebays="killuiport && auiroot && nnpm install && newt develop --app editbay"
+alias ebayslocal="killuiport && auiroot && nnpm install && newt develop --app editbay"
+alias ebayt="ebayw run generate-types"
+alias ebaytw="ebayw run generate-types:watch"
+alias ebaytwi="ebayw run generate-types:integration"
+alias ebaytest="ebayw run test"
+alias ebaytestonce="ebayw run test:once"
 
-alias speakw="nyarn workspace @animation-ui/speakeasy"
-alias speaks="killuiport && auiroot && nyarn && newt develop --app speakeasy"
-alias speaklocal="killuiport && auiroot && nyarn && newt develop --app speakeasy"
-alias speakt="speakw generate-types"
-alias speaktw="speakw generate-types:watch"
+alias speakw="nnpm --workspace=@animation-ui/speakeasy"
+alias speaks="killuiport && auiroot && nnpm install && newt develop --app speakeasy"
+alias speaklocal="killuiport && auiroot && nnpm install && newt develop --app speakeasy"
+alias speakt="speakw run generate-types"
+alias speaktw="speakw run generate-types:watch"
 
-alias assetw="nyarn workspace @animation-ui/asset-spotting"
-alias assets="killuiport && auiroot && nyarn && newt develop --app asset-spotting"
+alias assetw="nnpm --workspace=@animation-ui/asset-spotting"
+alias assets="killuiport && auiroot && nnpm install && newt develop --app asset-spotting"
 
-alias pashw="nyarn workspace @animation-ui/pashboard-v2"
-alias pasht="pashw generate-types"
-alias pashs="killuiport && auiroot && nyarn && newt develop --app pashboard-v2"
+alias pashw="nnpm --workspace=@animation-ui/pashboard-v2"
+alias pasht="pashw run generate-types"
+alias pashs="killuiport && auiroot && nnpm install && newt develop --app pashboard-v2"
 
-alias sbookw="nyarn workspace @animation-ui/storybook"
-alias sbooks="killport 6006 && auiroot && nyarn && newt develop --app storybook"
-
+alias sbookw="nnpm --workspace=@animation-ui/storybook"
+alias sbooks="killport 6006 && auiroot && nnpm install && newt develop --app storybook"
 
 # Open repository
 alias sdm="open https://stash.corp.netflix.com/projects/SUIM/repos/studio-ui-media/pull-requests"
