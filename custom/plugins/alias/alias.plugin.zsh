@@ -41,6 +41,8 @@ alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 alias nnpm="newt exec npm"
 alias nnpx="newt exec npx"
 alias nnode="newt exec node"
+alias nnpmr="newt exec npm run"
+alias npmr="npm run"
 
 # Apps
 alias killuiport="killport 8180 && killport 8080 && killport 3000"
