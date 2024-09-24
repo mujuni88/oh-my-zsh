@@ -1,23 +1,27 @@
+# File management
+# ---- Eza (better ls) -----
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias df="df -h"
+alias rm="rm -i"
+alias cp="cp -i"
+alias cd="z"
+alias j="z"
+
+# Vim
+alias vi="nvim"
+alias vim="nvim"
+
 # Project Paths
 alias Code="cd ~/Code/"
 alias pr="Code && cd projects"
 alias tuts="Code && cd tutorials"
 alias aliases="$ZSH/custom/plugins/alias/"
+alias valias="vim $ZSH/custom/plugins/alias/alias.plugin.zsh"
 alias dtf="$HOME/.dotfiles/"
+alias vzsh="vim ~/.zshrc"
 alias Netflix="Code && cd Netflix"
 alias auiroot="Netflix && cd ai-animation-ui"
 
-# Custom projects
-
-# File management
-alias ls="ls -al"
-alias df="df -h"
-alias rm="rm -i"
-alias cp="cp -i"
-
-# Vim
-alias vi="nvim"
-alias vim="nvim"
 
 # Tmux
 alias tmn="tmux new-session -s"
@@ -88,7 +92,7 @@ alias mtr="metatron refresh"
 alias botserver="Code && ssh -i "gdaxKey.pem" ec2-user@ec2-100-26-46-177.compute-1.amazonaws.com"
 
 alias killvpn="sudo kill -SEGV $(ps auwx | grep dsAccessService | grep Ss | awk '{print $2}')"
-alias sourcealias="source /Users/jbuza/.dotfiles/oh-my-zsh/custom/plugins/alias/alias.plugin.zsh"
+alias sourcezsh="source /Users/jbuza/.dotfiles/homedir/.zshrc"
 alias pgstart="brew services start postgresql@16"
 alias pgstop="brew services stop postgresql@16"
 alias pg='psql postgres'
