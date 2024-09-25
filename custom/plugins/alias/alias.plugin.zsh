@@ -1,6 +1,5 @@
 # File management
-# ---- Eza (better ls) -----
-alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --color=always --long --git --icons=always --no-time --no-user --all --tree --level=1 --git-ignore"
 alias df="df -h"
 alias rm="rm -i"
 alias cp="cp -i"
@@ -92,7 +91,7 @@ alias mtr="metatron refresh"
 alias botserver="Code && ssh -i "gdaxKey.pem" ec2-user@ec2-100-26-46-177.compute-1.amazonaws.com"
 
 alias killvpn="sudo kill -SEGV $(ps auwx | grep dsAccessService | grep Ss | awk '{print $2}')"
-alias sourcezsh="source /Users/jbuza/.dotfiles/homedir/.zshrc"
+alias szsh="source /Users/jbuza/.dotfiles/homedir/.zshrc"
 alias pgstart="brew services start postgresql@16"
 alias pgstop="brew services stop postgresql@16"
 alias pg='psql postgres'
