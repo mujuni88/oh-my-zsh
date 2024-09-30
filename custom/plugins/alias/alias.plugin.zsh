@@ -9,15 +9,16 @@ alias j="z"
 # Vim
 alias vi="nvim"
 alias vim="nvim"
+alias valias="vim $ZSH/custom/plugins/alias/alias.plugin.zsh"
+alias vzsh="vim ~/.zshrc"
+alias vwez="vim ~/.wezterm.lua"
 
 # Project Paths
 alias Code="cd ~/Code/"
 alias pr="Code && cd projects"
 alias tuts="Code && cd tutorials"
 alias aliases="$ZSH/custom/plugins/alias/"
-alias valias="vim $ZSH/custom/plugins/alias/alias.plugin.zsh"
 alias dtf="$HOME/.dotfiles/"
-alias vzsh="vim ~/.zshrc"
 alias Netflix="Code && cd Netflix"
 alias auiroot="Netflix && cd ai-animation-ui"
 
@@ -91,9 +92,9 @@ alias mtr="metatron refresh"
 alias botserver="Code && ssh -i "gdaxKey.pem" ec2-user@ec2-100-26-46-177.compute-1.amazonaws.com"
 
 alias killvpn="sudo kill -SEGV $(ps auwx | grep dsAccessService | grep Ss | awk '{print $2}')"
-alias szsh="source /Users/jbuza/.dotfiles/homedir/.zshrc"
+
 alias pgstart="brew services start postgresql@16"
 alias pgstop="brew services stop postgresql@16"
 alias pg='psql postgres'
 
-alias jdbs="vim /Users/jbuza/Library/autojump/autojump.txt"
+alias szsh="source /Users/jbuza/.dotfiles/homedir/.zshrc"
