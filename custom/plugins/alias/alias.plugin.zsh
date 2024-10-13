@@ -12,7 +12,8 @@ alias vim="nvim"
 alias valias="vim $ZSH/custom/plugins/alias/alias.plugin.zsh"
 alias vzsh="vim ~/.zshrc"
 alias vwez="vim ~/.wezterm.lua"
-alias vatuin="vim ~/.dotfiles/homedir/.config/atuin/config.toml"
+alias vatuin="vim $MYATUIN_CONFIG/config.toml"
+alias vflake="vim $MYNIX_CONFIG/flake.nix"
 
 # Project Paths
 alias Code="cd ~/Code/"
