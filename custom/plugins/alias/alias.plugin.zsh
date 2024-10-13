@@ -12,6 +12,7 @@ alias vim="nvim"
 alias valias="vim $ZSH/custom/plugins/alias/alias.plugin.zsh"
 alias vzsh="vim ~/.zshrc"
 alias vwez="vim ~/.wezterm.lua"
+alias vatuin="vim ~/.dotfiles/homedir/.config/atuin/config.toml"
 
 # Project Paths
 alias Code="cd ~/Code/"
