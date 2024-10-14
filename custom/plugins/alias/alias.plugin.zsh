@@ -11,9 +11,16 @@ alias vi="nvim"
 alias vim="nvim"
 alias valias="vim $ZSH/custom/plugins/alias/alias.plugin.zsh"
 alias vzsh="vim ~/.zshrc"
-alias vwez="vim ~/.wezterm.lua"
+alias vwez="vim $MYWEZ_CONFIG/config.lua"
 alias vatuin="vim $MYATUIN_CONFIG/config.toml"
 alias vflake="vim $MYNIX_CONFIG/flake.nix"
+
+# NVIM config
+alias vplug="vim $MYVIM_CONFIG/plugins.vim"
+alias vnerd="vim $MYVIM_CONFIG/settings/nerdtree.vim"
+alias vmap="vim $MYVIM_CONFIG/settings/mappings.vim"
+alias vjs="vim $MYVIM_CONFIG/settings/javascript.vim"
+alias vconf="vim $MYVIM_CONFIG/settings/config.vim"
 
 # Project Paths
 alias Code="cd ~/Code/"
@@ -36,12 +43,6 @@ alias tmka="killall tmux"
 # ZSH Aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim $ZSH"
-
-# NVIM config
-alias nvimplugins="vim ~/.config/nvim/plugins.vim"
-alias nvimnerd="vim ~/.config/nvim/settings/nerdtree.vim"
-alias nvimmap="vim ~/.config/nvim/settings/mappings.vim"
-alias nvimjs="vim ~/.config/nvim/settings/javascript.vim"
 
 # Updated npm aliases
 alias nnpm="newt exec npm"
