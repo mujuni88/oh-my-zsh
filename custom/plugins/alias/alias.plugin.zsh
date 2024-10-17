@@ -12,7 +12,6 @@ alias vim="nvim"
 alias valias="vim $ZSH/custom/plugins/alias/alias.plugin.zsh"
 alias vsh="vim ~/.zshrc"
 alias vwez="vim $MYWEZ_CONFIG/config.lua"
-alias vnix="vim $MYNIX_CONFIG/flake.nix"
 
 # NVIM config
 alias vplug="vim $MYVIM_CONFIG/plugins.vim"
@@ -102,4 +101,9 @@ alias pg='psql postgres'
 alias szsh="source /Users/jbuza/.dotfiles/homedir/.zshrc"
 
 #Nix
-alias nixr="darwin-rebuild switch --flake $MYNIX_CONFIG#$(scutil --get LocalHostName)"
+alias nxr="darwin-rebuild switch --flake $MYNIX_CONFIG#$(scutil --get LocalHostName)"
+alias vnix="vim $MYNIX_CONFIG/flake.nix"
+alias vnxp="vim $MYNIX_CONFIG/packages.nix"
+alias vnxb="vim $MYNIX_CONFIG/homebrew.nix"
+alias vnxh="vim $MYNIX_CONFIG/home.nix"
+alias vnxs="vim $MYNIX_CONFIG/system.nix"
