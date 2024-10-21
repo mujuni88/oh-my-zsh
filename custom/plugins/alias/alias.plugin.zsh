@@ -1,10 +1,14 @@
 # File management
 alias ls="eza --color=always --long --git --icons=always --no-time --no-user --all --tree --level=1 --git-ignore"
+alias cat="bat"
 alias df="df -h"
 alias rm="rm -i"
 alias cp="cp -i"
 alias cd="z"
 alias j="z"
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
 
 # Vim
 alias vi="nvim"
